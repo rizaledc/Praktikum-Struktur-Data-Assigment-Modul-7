@@ -6,7 +6,9 @@
 ## Tujuan Praktikum
 
  a. Mampu memahami konsep stack dan queue pada struktur data dan algoritma
+ 
  b. Mampu mengimplementasikan operasi-operasi pada stack dan queue
+ 
  c. Mampu memecahkan permasalahan dengan solusi stack dan queue
 
 ## Dasar Teori
@@ -14,7 +16,7 @@
 Sebagai mahasiswa Sains Data semester 2 di mata kuliah algoritma dan struktur data, sudah tentunya kita akan mendapatkan materi stack dan queue karena kedua hal ini memiliki peran pentimng dalam penstrukturan data. Berikut ini adalah definisinya:
 
 a. STACK
-Stack merupakan struktur data linear yang di mana penambahan maupun pengurangan elemen dapat dilakukan di satu ujungnya saja. Operasi pada stack menggunakan penyisipan (push) serta penghapusan (pop) elemen dari salah satu ujung saja dari tumpukan data. Salah satu contohnya adalah tumpukan buku di atas meja, dimana buku yang diletakkan terakhir akan yang pertama dapat diambil, oleh karena itu stack disebut bersifat  LIFO (Last In First Out) dan objek yang terakhir masuk ke dalam stack akan menjadi benda pertama yang dikeluarkan dari stack itu (Johnson Sihombing,2020). Berikut ini merupakan contoh gambarannya:
+Stack merupakan struktur data linear yang di mana penambahan maupun pengurangan elemen dapat dilakukan di satu ujungnya saja. Operasi pada stack menggunakan penyisipan (push) serta penghapusan (pop) elemen dari salah satu ujung saja dari tumpukan data. Salah satu contohnya adalah tumpukan buku di atas meja, dimana buku yang diletakkan terakhir akan yang pertama dapat diambil, oleh karena itu stack disebut bersifat  LIFO (Last In First Out) dan objek yang terakhir masuk ke dalam stack akan menjadi benda pertama yang dikeluarkan dari stack itu [2]. Berikut ini merupakan contoh gambarannya:
 
 <p align="center">
   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assigment-Modul-7/blob/main/Modul%207/SS%20Code%20and%20Output/LIFO.png" alt="Alt Text">
@@ -27,7 +29,7 @@ Stack merupakan struktur data linear yang di mana penambahan maupun pengurangan 
 - Prinsip inilah yang disebut dengan LIFO
 
 b. QUEUE
-Queue merupakan struktur data linear, namun memiliki penambahan komponen yang dilakukan di datu ujungnya. Sementara, pengurangan akan terjadi di ujung lainnya. Queue menggunakan prinsip penyisipan yang disebut dengan enqueue serta penghapusan yang disebut dengan dequeue salah satu elemen dari ujung antrian data. Salah satu contohnya adalah antrian bioskop, dimana ketika terdapat antrian bioskop yang pertama mengantri akan pertama keluar dan mendapatkan tiketnya. Prinsip ini disebut dengan bersifat FIFO (First In First Out) dengaa cara kerja yang berbanding terbalik dengan stack (Johnson Sombing,2020). Berikut ini contoh penggambaran queue:
+Queue merupakan struktur data linear, namun memiliki penambahan komponen yang dilakukan di datu ujungnya. Sementara, pengurangan akan terjadi di ujung lainnya. Queue menggunakan prinsip penyisipan yang disebut dengan enqueue serta penghapusan yang disebut dengan dequeue salah satu elemen dari ujung antrian data. Salah satu contohnya adalah antrian bioskop, dimana ketika terdapat antrian bioskop yang pertama mengantri akan pertama keluar dan mendapatkan tiketnya. Prinsip ini disebut dengan bersifat FIFO (First In First Out) dengaa cara kerja yang berbanding terbalik dengan stack [2]. Berikut ini contoh penggambaran queue:
 
 <p align="center">
   <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assigment-Modul-7/blob/main/Modul%207/SS%20Code%20and%20Output/FIFO.png" alt="Alt Text">
@@ -38,7 +40,7 @@ Queue merupakan struktur data linear, namun memiliki penambahan komponen yang di
 - Hal ini merupakan penggambaran dari FIFO dan akan terus terjadi prinsipnya.
 
 c. DEQUE
-Deque (Double ended Queue) merupakan struktur data gabungan dari queue dan stack (Rachmat Selamet, 2016). Deque memiliki kemampuan untuk menambahkan dan menghapus elemen di kedua ujungnya. Berbeda dengan queue dan stack yang hanya bisa beroprasu di satu sisi saja. Deque memungkinkan penghapusan elemen dari depan maupun dari belakang data.
+Deque (Double ended Queue) merupakan struktur data gabungan dari queue dan stack [1]. Deque memiliki kemampuan untuk menambahkan dan menghapus elemen di kedua ujungnya. Berbeda dengan queue dan stack yang hanya bisa beroprasu di satu sisi saja. Deque memungkinkan penghapusan elemen dari depan maupun dari belakang data.
 
 ## Guided 
 
@@ -1035,6 +1037,6 @@ Dalam dunia pemrograman C++, stack dan queue merupakan struktur data yang diguna
 
 ## Referensi
 
-[1]	R. Selamet, “Implementasi Struktur Data List, Queue Dan Stack Dalam Java,” Media Inform., vol. 15, no. 3, pp. 18–25, 2016.
+[1]	C. W. SItorus, “PENERAPAN DAN FUNGSI ALGORITMA PEMROGRAMAN,” pp. 1–13.
 
-[2]	S. Santosa A. Aliyanto,and S. Utomo, “Sistem Pembelajaran Algoritma Stack Dan Queue Dengan Pendekatan Program Based Learning,” J. Teknol. Inf., vol. 7, no. 1, pp. 17–18, 2019.
+[2]	J. Sihombing, “Penerapan Stack Dan Queue Pada Array Dan Linked List Dalam Java,” J. Ilm. Infokom, vol. 7, no. 2, pp. 15–24, 2019.
