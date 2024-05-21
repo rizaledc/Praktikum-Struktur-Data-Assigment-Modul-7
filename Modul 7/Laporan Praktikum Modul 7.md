@@ -685,7 +685,7 @@ Fungsi di atas merupakan fungsi main yang berupa fungsi utama di dalam program y
 
 #### Penjelasan
 
-Dari output di atas kita mengetahui bahwa pengguna dapat memasukkan kalimat untuk di cek kepalindromannya. Pertama user memasukkan kata ini yang merupakan palindrom, lalu kata Rizal yang bukan palindrom, dan terakhir anna yang merupakan palindrom.
+Dari output di atas kita mengetahui bahwa pengguna dapat memasukkan kalimat untuk di cek kepalindromannya. Pertama user memasukkan kata ini yang merupakan palindrom, lalu kata Rizal yang bukan palindrom, dan terakhir rizir yang merupakan palindrom.
 
 ### 2. Unguided 2
 
